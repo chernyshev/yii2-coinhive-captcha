@@ -1,0 +1,23 @@
+{
+  "name": "chernyshev/yii2-coinhive-captcha",
+  "description": "Coinhive Proof of Work Captcha for Yii2",
+  "keywords": ["yii2", "widget", "captcha", "coinhive", "miner", "cryptocurrency"],
+  "homepage": "https://github.com/chernyshev/yii2-coinhive-captcha",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Yuriy Chernyshev",
+      "email": "yuriy.chernyshev@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "^2.0.0",
+    "yiisoft/yii2-httpclient": "^2.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "chernyshev\\Captcha\\": "src/"
+    }
+  }
+}
